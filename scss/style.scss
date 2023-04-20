@@ -81,6 +81,7 @@ main {
     .content {
       @include row();
       margin-top: 50px;
+      justify-content: flex-start;
 
       h3 {
         font-size: 1.125rem;
@@ -106,23 +107,28 @@ main {
   #production {
     img {
       // 画像下背景色のずらし
-      box-shadow: 10px 10px 0 #3E3E5C;
+      box-shadow: 10px 10px 0 #ccc;
     }
 
     h3 {
       margin-top: 40px;
     }
 
-    li {
-      width: 30%;
-    }
+    ul {
+      flex-wrap: wrap;
 
-    li:hover {
-      opacity: .7;
-    }
+      li {
+        width: 30%;
+        margin-right: 30px;
+      }
 
-    p {
-      margin-bottom: 20px;
+      li:hover {
+        opacity: .7;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
     }
   }
 }

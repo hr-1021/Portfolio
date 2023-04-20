@@ -54,6 +54,7 @@ main section .content {
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 50px;
+  justify-content: flex-start;
 }
 main section .content h3 {
   font-size: 1.125rem;
@@ -71,18 +72,22 @@ main #about .text {
   margin-left: 30px;
 }
 main #production img {
-  box-shadow: 10px 10px 0 #3E3E5C;
+  box-shadow: 10px 10px 0 #ccc;
 }
 main #production h3 {
   margin-top: 40px;
 }
-main #production li {
-  width: 30%;
+main #production ul {
+  flex-wrap: wrap;
 }
-main #production li:hover {
+main #production ul li {
+  width: 30%;
+  margin-right: 30px;
+}
+main #production ul li:hover {
   opacity: 0.7;
 }
-main #production p {
+main #production ul p {
   margin-bottom: 20px;
 }
 
