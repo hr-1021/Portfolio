@@ -11,6 +11,7 @@ body {
 
 .page {
   margin: 0 auto;
+  padding: 0 4%;
 }
 
 @mixin row {
@@ -120,6 +121,7 @@ main {
       li {
         width: 30%;
         margin-right: 30px;
+        margin-bottom: 30px;
       }
 
       li:hover {
@@ -151,13 +153,15 @@ main {
     }
 
     #production {
-      li {
-        margin: 0 auto 50px auto;
-        width: 60%;
-      }
+      ul {
+        li {
+          margin: 0 auto 50px auto;
+          width: 60%;
+        }
 
-      li:last-child {
-        margin-bottom: 0;
+        li:last-child {
+          margin-bottom: 0;
+        }
       }
     }
   }

@@ -8,6 +8,7 @@ body {
 
 .page {
   margin: 0 auto;
+  padding: 0 4%;
 }
 
 header .inner {
@@ -83,6 +84,7 @@ main #production ul {
 main #production ul li {
   width: 30%;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 main #production ul li:hover {
   opacity: 0.7;
@@ -102,11 +104,11 @@ main #production ul p {
     margin-top: 30px;
     margin-left: 0;
   }
-  main #production li {
+  main #production ul li {
     margin: 0 auto 50px auto;
     width: 60%;
   }
-  main #production li:last-child {
+  main #production ul li:last-child {
     margin-bottom: 0;
   }
 }
